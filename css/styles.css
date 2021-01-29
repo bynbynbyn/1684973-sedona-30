@@ -1,0 +1,16 @@
+.footer {
+    height: 120px;
+    width: 1200px;
+    left: 40px;
+    top: 2642px;
+    border-radius: 0px;
+    background-color: rgb(133, 172, 142);    
+}
+
+.logo-academy {
+    height: 41px;
+    width: 115px;
+    position: relative;
+    left: 947px;
+    top: 38px;
+}
