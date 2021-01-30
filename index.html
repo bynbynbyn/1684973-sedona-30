@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body>
-    <header>
+  <body class="main-page">
+    <header> <!--Шапка-->
         <nav> <!--Навигация по сайту-->
         <ul> <!-- формат задать позже в CSS class="site-navigation"-->
-          <li><a href="/htmlpages/info.html">Информация</a></li>
-          <li><a href="/htmlpages/photos.html">Фото и видео</a></li>
-          <li><a href="/htmlpages/map.html">Карта штата</a></li>
-          <li><a href="/htmlpages/hotels.html">Гостиницы</a></li>
+          <li><a href="htmlpages/info.html">Информация</a></li>
+          <li><a href="htmlpages/photos.html">Фото и видео</a></li>
+          <li><a href="htmlpages/map.html">Карта штата</a></li>
+          <li><a href="htmlpages/hotels.html">Гостиницы</a></li>
         </ul>
         <a> <!--на остальных странцах добавть href="index.html", 
                 формат задать позже в CSS class="main-headder-logo"-->
@@ -24,18 +24,44 @@
     </header>
 
     <main>
+      <section> <!--Main picture-->
+        <img src="img/background_photo.jpg">
+      </section>
+
+      <section> <!--Advantages tytle-->
+        <div>
+          <h1>Седона — небольшой городок в Аризоне,заслуживающий большего!</h1>
+          <img src="img/Rectangle_for_tytle.svg">
+        </div>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      </section>
+
+      <section> <!--Пемущество №1-->
+        <img src="img/Rectangle-advantages.svg">
+          <h2>Настоящий<br>городок</h2>
+          <p>— №1 —</p>
+          <p>Седона - не аттракцион для туристов, там<br>течёт своя жизнь</p>
+        <img src="img/sedona-cafe.jpg">
+        <div>
+          <lu>
+            <li></li>
+          </lu>
+        </div>
+        
+
+
+      </section>
 
     </main>
 
-    <footer>
-      <section class="footer"> <!--подвал-->
+    <footer class="footer"> <!--подвал-->
 
-        <div> <!--Контакты-->
+      <div> <!--Контакты-->
           <p >#VISITSEDONA</p>
           <P>ТЕЛ: +7(495) 666-01-66</P>
-        </div>
+      </div>
              
-        <div> <!--Соц. сети-->
+      <div> <!--Соц. сети-->
           <a href="https://twitter.com"> <!--добавить ссылку на страницу Седоны-->
             <img src="img/twitter.svg" alt="Twitter">
           </a>
@@ -45,13 +71,13 @@
           <a href="https://youtube.com"> <!--добавить ссылку на страницу Седоны-->
             <img src="img/youtube.svg" alt="youtube">
           </a>
-        </div>
+      </div>
 
-        <div><!--<Копирайт-->
+      <div><!--<Копирайт-->
           <p>WEBSITE BY</p>
           <img src="img/logo-htmlacademy.svg" class="logo-academy"> <!--Лого Академии-->
-        </div>
-      </section>
+      </div>
+
     </footer>
 
   </body>
