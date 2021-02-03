@@ -18,3 +18,7 @@
     left: 947px;
     top: 38px;
 }
+/* вспомогательные, в конце - удалить */
+.white-background {
+    background-color: white;
+}
