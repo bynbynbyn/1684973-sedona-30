@@ -2,6 +2,31 @@
     background-color: rgb(176, 201, 221);
 }
 
+.form-title {
+    width: 568px;
+    height: 86px;
+    background: #766357;
+    text-align: center;
+}
+
+.form-title-text {
+    /*vertical-align: middle;*/
+}
+
+.form {
+    width: 568px;
+    height: 395px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.find-button {
+    width: 458px;
+    height: 58px;
+    background: #81B3D2;
+    align-self: center;
+}
+
 .footer {
     height: 120px;
     width: 1200px;
@@ -9,6 +34,10 @@
     top: 2642px;
     border-radius: 0px;
     background-color: rgb(133, 172, 142);    
+}
+
+.footer-icon {
+    background-image: url("img/footer-icon-rectangle.svg");
 }
 
 .logo-academy {
